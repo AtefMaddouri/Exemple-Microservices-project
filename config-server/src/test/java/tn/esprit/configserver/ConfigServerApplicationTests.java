@@ -1,10 +1,10 @@
-package tn.atef.generiquemodule;
+package tn.esprit.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GeneriqueModuleApplicationTests {
+class ConfigServerApplicationTests {
 
     @Test
     void contextLoads() {
