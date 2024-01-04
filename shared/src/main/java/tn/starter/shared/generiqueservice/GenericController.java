@@ -17,13 +17,13 @@ public class GenericController<T,ID> {
 	IGenericService<T,ID> genericService;
 
 	@PostMapping
-	public T add(@RequestBody T entity) {
-		return genericService.add(entity);
+	public T add(@RequestBody T dto) {
+		return genericService.add(dto);
 	}
 
 	@PutMapping()
-	public T update(@RequestBody T entity) {
-		return	genericService.update(entity);
+	public T update(@RequestBody T dto) {
+		return	genericService.update(dto);
 	}
 
 	@GetMapping("/{id}")

@@ -1,0 +1,35 @@
+GET http://localhost:9012/product/welcome
+
+<> 2024-01-04T170453.200.txt
+
+###
+
+GET http://localhost:9012/product/welcome
+
+<> 2024-01-04T164719.200.txt
+
+###
+
+GET http://localhost:9012/product/welcome
+
+<> 2024-01-04T160925.200.txt
+
+###
+
+GET http://localhost:9012/product/welcome
+
+<> 2024-01-04T160712.200.txt
+
+###
+
+GET http://localhost:8080/product/welcome
+
+###
+
+GET http://localhost:8080/actuator
+Accept: application/vnd.spring-boot.actuator.v3+json
+
+<> 2023-06-07T184308.200.json
+
+###
+

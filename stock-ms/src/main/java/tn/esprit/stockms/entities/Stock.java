@@ -1,10 +1,11 @@
 package tn.esprit.stockms.entities;
 
+import jakarta.persistence.Entity;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 import tn.starter.shared.entities.BaseEntity;
 
-import javax.persistence.Entity;
+
 @Entity
 @Getter @Setter
 @AllArgsConstructor

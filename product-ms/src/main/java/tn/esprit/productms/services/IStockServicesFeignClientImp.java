@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.client.RestTemplate;
 import tn.starter.shared.dto.StockDto;
 
+
 public class IStockServicesFeignClientImp implements IStockServicesFeignClient {
 
     RestTemplate restTemplate = new RestTemplate();

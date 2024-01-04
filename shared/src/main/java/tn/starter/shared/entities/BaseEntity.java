@@ -1,13 +1,11 @@
 package tn.starter.shared.entities;
 
-
-
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import lombok.*;
-
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.MappedSuperclass;
+import jakarta.persistence.MappedSuperclass;
+import java.io.Serializable;
 import java.time.LocalDate;
 
 
@@ -16,12 +14,10 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @MappedSuperclass
-public class BaseEntity {
+public class BaseEntity implements Serializable {
     @Id
     @Setter(AccessLevel.PRIVATE)
-    @GeneratedValue(
-            strategy = GenerationType.IDENTITY
-    )
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     long id;
     LocalDate createdAt;
     LocalDate updatedAt;

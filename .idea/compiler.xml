@@ -2,30 +2,33 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="product-ms" />
-        <module name="generique-service" />
+        <module name="shared" />
+        <module name="config-server" />
         <module name="stock-ms" />
-        <module name="gateway-service" />
         <module name="discovery-service" />
+        <module name="gateway-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="discovery-service" target="1.8" />
-      <module name="gateway-service" target="1.8" />
-      <module name="generique-service" target="1.8" />
-      <module name="product-ms" target="1.8" />
-      <module name="stock-ms" target="1.8" />
+      <module name="config-server" target="17" />
+      <module name="discovery-service" target="17" />
+      <module name="gateway-service" target="17" />
+      <module name="product-ms" target="17" />
+      <module name="shared" target="17" />
+      <module name="stock-ms" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-server" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
-      <module name="generique-service" options="-parameters" />
       <module name="product-ms" options="-parameters" />
       <module name="stock-ms" options="-parameters" />
     </option>

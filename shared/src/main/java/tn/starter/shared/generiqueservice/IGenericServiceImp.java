@@ -9,8 +9,7 @@ public class IGenericServiceImp<T,ID> implements IGenericService<T,ID> {
 	@Autowired
 	CrudRepository<T,ID> baseRepository;
 
-   // @Autowired
-	//private  BaseRepository<T, ID> baseRepository;
+
 
 	@Override
 	public T add(T entity) {

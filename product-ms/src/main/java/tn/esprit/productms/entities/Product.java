@@ -1,11 +1,11 @@
 package tn.esprit.productms.entities;
 
+import jakarta.persistence.Entity;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 import tn.starter.shared.entities.BaseEntity;
 
 
-import javax.persistence.Entity;
 import java.time.LocalDate;
 
 @Entity
@@ -15,11 +15,9 @@ import java.time.LocalDate;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Product extends BaseEntity {
 
-    LocalDate createdAt;
-    LocalDate updatedAt;
-
     String name;
+    long qte;
 
-    Long stockId;
+    long stockId;
 
 }
