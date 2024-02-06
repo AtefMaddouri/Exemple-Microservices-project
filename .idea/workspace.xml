@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3686255f-2e67-4941-a888-e3b3a65da815" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/shared/src/main/java/tn/starter/shared/dto/ProductDtoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/dto/ProductDto$ProductDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/dto/ProductDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/dto/ProductDtoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/dto/StockDto$StockDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/dto/StockDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/entities/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/generiqueservice/BaseRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/generiqueservice/GenericController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/generiqueservice/IGenericService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/generiqueservice/IGenericServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/target/shared-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_11.xml" beforeDir="false" />
@@ -246,21 +259,8 @@
       <change beforePath="$PROJECT_DIR$/product-ms/src/main/java/tn/esprit/productms/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-ms/src/main/java/tn/esprit/productms/controllers/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/shared.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/tn/starter/shared/dto/ProductDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/tn/starter/shared/dto/ProductDtoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/src/main/java/tn/starter/shared/generiqueservice/GenericController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/tn/starter/shared/generiqueservice/GenericController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/dto/ProductDto$ProductDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/dto/ProductDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/dto/StockDto$StockDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/dto/StockDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/entities/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/generiqueservice/BaseRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/generiqueservice/GenericController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/generiqueservice/IGenericService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/classes/tn/starter/shared/generiqueservice/IGenericServiceImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/shared-1.0.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -459,7 +459,7 @@
       <workItem from="1707144093502" duration="924000" />
       <workItem from="1707145745288" duration="1582000" />
       <workItem from="1707228901582" duration="5198000" />
-      <workItem from="1707237669193" duration="41000" />
+      <workItem from="1707237669193" duration="270000" />
     </task>
     <servers />
   </component>
