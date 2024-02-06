@@ -6,4 +6,5 @@ tn\starter\shared\dto\StockDto$StockDtoBuilder.class
 tn\starter\shared\generiqueservice\IGenericServiceImp.class
 tn\starter\shared\entities\BaseEntity.class
 tn\starter\shared\dto\ProductDto$ProductDtoBuilder.class
+tn\starter\shared\dto\ProductDtoTest.class
 tn\starter\shared\dto\StockDto.class

@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import tn.esprit.productms.entities.Product;
 import tn.esprit.productms.services.IProductService;
 import tn.starter.shared.dto.ProductDto;
+import tn.starter.shared.dto.ProductDtoTest;
 import tn.starter.shared.generiqueservice.GenericController;
 
 import java.util.Map;
@@ -15,7 +16,7 @@ import java.util.Map;
 @RefreshScope
 @RequestMapping("product")
 @RequiredArgsConstructor
-public class ProductController extends GenericController<Product,Long> {
+public class ProductController extends GenericController<ProductDtoTest,Product,Long> {
 
     private final IProductService productService;
 

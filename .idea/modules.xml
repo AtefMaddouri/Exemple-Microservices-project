@@ -3,12 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Exemple Microservices - project.iml" filepath="$PROJECT_DIR$/.idea/Exemple Microservices - project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/discovery-service/discovery-service.iml" filepath="$PROJECT_DIR$/discovery-service/discovery-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/gateway-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/product-ms/product-ms.iml" filepath="$PROJECT_DIR$/product-ms/product-ms.iml" />
       <module fileurl="file://$PROJECT_DIR$/shared/shared.iml" filepath="$PROJECT_DIR$/shared/shared.iml" />
-      <module fileurl="file://$PROJECT_DIR$/stock-ms/stock-ms.iml" filepath="$PROJECT_DIR$/stock-ms/stock-ms.iml" />
     </modules>
   </component>
 </project>
