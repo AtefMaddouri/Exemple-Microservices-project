@@ -8,6 +8,7 @@
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/shared/src/main/java/tn/starter/shared/dto/ProductDtoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_11.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_11.xml" beforeDir="false" />
@@ -239,6 +240,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_2_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" beforeDir="false" />
+=======
+>>>>>>> 36eac6ea247f80e254d06b4d08f3ff304f36cc30
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />

@@ -29,6 +29,7 @@ public class GenericController<DTO, T,ID> {
 		genericService.add(entity);
 		BeanUtils.copyProperties(entity,dto);
 		return dto;
+
 	}
 
 	@PutMapping
