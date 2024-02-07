@@ -7,7 +7,7 @@ services:
      container_name: postgres
      restart: on-failure
      volumes:
-       - D:\volume\postgres-keycloack:/var/lib/postgresql/data
+       - /home/atef/volume/keycloakpostgres:/var/lib/postgresql/data
      environment:
        POSTGRES_DB: keycloak
        POSTGRES_USER: keycloak
