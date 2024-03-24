@@ -1,20 +1,21 @@
 package tn.starter.shared.dto;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.*;
 
 import java.time.LocalDate;
 
 
-<<<<<<< HEAD
+
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
+@Getter @Setter
 public class ProductDtoTest{
+    private long id, stockId, qte;
     private LocalDate createdAt, updatedAt;
     private String name;
-=======
-@Builder
-public record  ProductDto (LocalDate createdAt, LocalDate updatedAt, String name, StockDto stockDto){
->>>>>>> 4bbe3f7bf06aa0addb59e57c54fca6ffacc8e0da
+    private StockDtoTest stockDtoTest;
+//@Builder
+//public record  ProductDto (LocalDate createdAt, LocalDate updatedAt, String name, StockDto stockDto){
 }

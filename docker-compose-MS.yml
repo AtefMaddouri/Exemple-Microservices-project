@@ -1,0 +1,85 @@
+version: "3"
+
+services:
+
+   postgres:
+     image: postgres
+     container_name: postgres
+     restart: on-failure
+     volumes:
+       - /home/atef/volume/keycloakpostgres:/var/lib/postgresql/data
+     environment:
+       POSTGRES_DB: keycloak
+       POSTGRES_USER: keycloak
+       POSTGRES_PASSWORD: password
+
+   keycloak:
+     image: quay.io/keycloak/keycloak:23.0.6
+     container_name: keycloak
+     command: ["start-dev"]
+     restart: on-failure
+     environment:
+       KC_DB: postgres
+       KC_DB_URL: jdbc:postgresql://postgres/keycloak
+       KC_DB_USERNAME: keycloak
+       KC_DB_PASSWORD: password
+#       KEYCLOAK_USER: admin
+#       KEYCLOAK_PASSWORD: Pa55w0rd.
+       KEYCLOAK_ADMIN: admin
+       KEYCLOAK_ADMIN_PASSWORD: admin
+     ports:
+       - 8080:8080
+
+
+#   config-service:
+#     image: atef/config-service:1.0
+#     container_name: config-service-container
+#     build: config-service
+#     ports:
+#       - "8888:8888"
+#     restart: on-failure
+#     volumes:
+#       - ./config-service
+#
+#   discovery-service:
+#     image: atef/discovery-service:1.0
+#     container_name: discovery-service
+#     build: discovery-service
+#     restart: on-failure
+#     ports:
+#       - "8761:8761"
+#     volumes:
+#       - ./discovery-service
+#
+#   gateway-service:
+#     image: atef/gateway-service:1.0
+#     container_name: gateway-service
+#     build: gateway-service
+#     restart: on-failure
+#     ports:
+#       - "9090:9090"
+#     volumes:
+#       - ./gateway-service
+#
+#
+#   stock-ms:
+#     image: atef/stock-ms:1.0
+#     container_name: stock-ms
+#     build: supervise-service
+#     restart: on-failure
+#     ports:
+#       - "9091:9091"
+#     volumes:
+#       - ./stock-ms
+#
+#
+#   product-ms:
+#     image: atef/product-ms:1.0
+#     container_name: product-ms
+#     build: pillbox-service
+#     restart: on-failure
+#     ports:
+#       - "9092:9092"
+#     volumes:
+#       - ./product-ms
+

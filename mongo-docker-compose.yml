@@ -1,0 +1,35 @@
+version: "3"
+
+services:
+  mongoDB:
+    container_name: mongoDB
+    image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_DATABASE=auth
+      - MONGO_INITDB_ROOT_PASSWORD=pass
+#    networks:
+#      - mongoDB-express-network
+    ports:
+      - '27017:27017'
+    volumes:
+      - /home/volume/mongo:/data/db
+
+  mongo-express:
+    container_name: mongo-express
+    image: mongo-express
+    depends_on:
+      - mongoDB
+#    networks:
+#      - mongoDB-express-network
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=mongoDB
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=pass
+      - ME_CONFIG_BASICAUTH_USERNAME=admin
+      - ME_CONFIG_BASICAUTH_PASSWORD=tribes
+    ports:
+      - '8081:8081'
+#    volumes:
+#      - ./data:/data/db
+

@@ -77,6 +77,15 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-bootstrap</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-client</artifactId>
+		</dependency>
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
@@ -118,7 +127,7 @@
 						<id>default</id>
 						<phase>package</phase>
 						<goals>
-							<goal>build</goal>
+<!--							<goal>build</goal>-->
 							<!-- <goal>push</goal> -->
 						</goals>
 					</execution>

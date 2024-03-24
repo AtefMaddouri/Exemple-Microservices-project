@@ -5,6 +5,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.*;
 import jakarta.persistence.MappedSuperclass;
+import lombok.experimental.FieldDefaults;
+
 import java.io.Serializable;
 import java.time.LocalDate;
 
@@ -13,7 +15,9 @@ import java.time.LocalDate;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString
 @MappedSuperclass
+@FieldDefaults(level = AccessLevel.PRIVATE)
 public class BaseEntity implements Serializable {
     @Id
     @Setter(AccessLevel.PRIVATE)

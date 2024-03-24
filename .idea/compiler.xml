@@ -8,6 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="shared" />
+        <module name="config-server" />
+        <module name="stock-ms" />
+        <module name="gateway-service" />
+        <module name="product-ms" />
+        <module name="invoice" />
+        <module name="discovery-service" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +22,7 @@
       <module name="config-server" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
+      <module name="invoice" options="-parameters" />
       <module name="product-ms" options="-parameters" />
       <module name="stock-ms" options="-parameters" />
     </option>

@@ -1,0 +1,52 @@
+{
+  "hash": "7953561b",
+  "configHash": "b15d08ae",
+  "lockfileHash": "c6999f94",
+  "browserHash": "25eb38b1",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "088fad99",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "f0a200d3",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "d66c4f50",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "47d3a33c",
+      "needsInterop": false
+    },
+    "keycloak-angular": {
+      "src": "../../../../../node_modules/keycloak-angular/fesm2022/keycloak-angular.mjs",
+      "file": "keycloak-angular.js",
+      "fileHash": "5d31162c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-WZFN76AC": {
+      "file": "chunk-WZFN76AC.js"
+    },
+    "chunk-MZQJOBR6": {
+      "file": "chunk-MZQJOBR6.js"
+    },
+    "chunk-3ZXYUINF": {
+      "file": "chunk-3ZXYUINF.js"
+    },
+    "chunk-Q6S6BFDM": {
+      "file": "chunk-Q6S6BFDM.js"
+    }
+  }
+}

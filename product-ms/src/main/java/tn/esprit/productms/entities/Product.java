@@ -9,7 +9,7 @@ import tn.starter.shared.entities.BaseEntity;
 import java.time.LocalDate;
 
 @Entity
-@Getter @Setter
+@Getter @Setter @ToString
 @AllArgsConstructor
 @NoArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)

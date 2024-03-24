@@ -4,23 +4,18 @@ package tn.esprit.productms.services;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.Assert;
-import org.springframework.util.ReflectionUtils;
 import tn.esprit.productms.entities.Product;
+import tn.esprit.productms.feignClients.IStockServicesFeignClient;
 import tn.esprit.productms.repositories.ProductRepository;
 import tn.starter.shared.dto.ProductDto;
+import tn.starter.shared.dto.ProductDtoTest;
 import tn.starter.shared.generiqueservice.IGenericServiceImp;
-
-import java.lang.reflect.Field;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.util.Map;
 
 @Slf4j
 @Service
 @RequiredArgsConstructor
-public class IProductServiceIpm extends IGenericServiceImp<Product,Long>  implements IProductService{
+public class IProductServiceIpm extends IGenericServiceImp<ProductDtoTest, Product,Long>  implements IProductService{
 
     private final ProductRepository productRepository;
     private final IStockServicesFeignClient iStockServicesFeignClient;
@@ -28,7 +23,7 @@ public class IProductServiceIpm extends IGenericServiceImp<Product,Long>  implem
 
 
 
-    @Override
+    /*@Override
     @Transactional
     public Product patchUpdate(Map<Object, Object> fields, long id) {
 
@@ -54,7 +49,7 @@ public class IProductServiceIpm extends IGenericServiceImp<Product,Long>  implem
         });
 
         return product;
-    }
+    }*/
 
     @Override
     public ProductDto getProductById(Long id) {
