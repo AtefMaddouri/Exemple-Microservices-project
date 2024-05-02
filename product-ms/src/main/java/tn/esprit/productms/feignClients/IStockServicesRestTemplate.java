@@ -2,19 +2,16 @@ package tn.esprit.productms.feignClients;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.client.RestTemplate;
-import tn.esprit.productms.feignClients.IStockServicesFeignClient;
-import tn.starter.shared.dto.StockDto;
 import tn.starter.shared.dto.StockDtoTest;
 
 
-public class IStockServicesFeignClientImp implements IStockServicesFeignClient {
+public class IStockServicesRestTemplate{
 
     RestTemplate restTemplate = new RestTemplate();
 
     @Value("param.baseurl")
     private String baseURL ;
 
-    @Override
     public StockDtoTest getStockById(long id) {
 
   /*      HttpEntity<String> request = new HttpEntity<String>(getHeaders());
@@ -26,4 +23,5 @@ public class IStockServicesFeignClientImp implements IStockServicesFeignClient {
 
         return null;
     }
+
 }
